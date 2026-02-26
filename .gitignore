@@ -2,6 +2,7 @@
 *.launch
 *.orig
 *.bak
+
 .vscode/
 **/build/
 **/GNU ARM v*

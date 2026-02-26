@@ -2,7 +2,7 @@
 
 We have provided a wide range of [Proprietary Application Examples](https://github.com/SiliconLabs/proprietary_rail) for everyone to refer to.
 
-We’d love for you to join in—share your own projects, tips, or improvements to help grow the community. Whether you're contributing code, refining docs, or offering feedback, your input makes a difference. Explore the examples to kickstart your development and connect with others building on Silicon Labs tech!
+We’d love for you to join in—share your own projects, tips, or improvements to help grow the community. Whether you're listing a project, refining docs, or offering feedback, your input makes a difference. Explore the examples to kickstart your development and connect with others building on Silicon Labs tech!
 
 ## Requirements ##
 
@@ -10,21 +10,31 @@ We’d love for you to join in—share your own projects, tips, or improvements 
 2. Simplicity Studio 5
 3. Compatible SDK version, you can install it via Simplicity Studio or download it from our GitHub [gecko_sdk](https://github.com/SiliconLabs/gecko_sdk) or [simplicity_sdk](https://github.com/SiliconLabs/simplicity_sdk)
 
-## Project Format ##
+## How to contribute ##
 
-You are welcome to contribute these projects in any format you find suitable.
-However, we strongly encourage submissions to be in a form that is easily accessible and understandable to everyone.
-While all contributions are appreciated, we still prefer the [.SLS](https://docs.silabs.com/simplicity-studio-5-users-guide/latest/ss-5-users-guide-about-the-simplicity-ide/import-and-export) format whenever possible.
+This repository accepts link submissions (not project source code). To share your project, add a new row to the table below with:
 
-For more details on the recommended folder structure and contribution guidelines, please refer to the [How to Contribute](../../README.md#how-to-contribute).
+- a link to your public GitHub repository
+- a 1-2 sentence description
+- a link to your GitHub profile
+- append your new row to the bottom of the table (do not reorder or edit existing rows)
+
+See [How to Contribute](../../../README.md#how-to-contribute) and [CONTRIBUTING.md](../../../.github/CONTRIBUTING.md) for details.
 
 ## Project list ##
 
 Below is a list of Proprietary application projects that have been contributed by the community.
 
-| No | Project name | Author/Contributor |
-|:--:|:-------------|:---------------:|
-| 1  |[Your project name] | [Your GitHub name + link to your GitHub] |
+To avoid merge conflicts when multiple PRs are created around the same time, please append your new row at the bottom of the table.
+
+Example row (copy/paste and edit):
+
+```markdown
+| [my-project](https://github.com/<org-or-user>/<repo>) | One or two sentences describing what it does and which Silicon Labs technology it uses. | [my-handle](https://github.com/<your-handle>) |
+```
+
+| Project (GitHub) | Description | Author/Contributor |
+|:--|:--|:--|
 
 ## Documentation ##
 
@@ -32,6 +42,5 @@ Official documentation can be found at our [Developer Documentation](https://doc
 
 ## Reporting Bugs/Issues and Posting Questions and Comments ##
 
-To report bugs, please create a new "Issue" in the "Issues" section of this repo. Please reference the board, project, and source files associated with the bug, and reference line numbers. If you are proposing a fix, also include information on the proposed fix. Since these examples are provided as-is, there is no guarantee that these examples will be updated to fix these issues.
-
-Questions and comments related to these examples should be made by creating a new "Issue" in the "Issues" section of this repo.
+- For issues with a listed project, use the linked repository's issue tracker.
+- For issues with this directory page (broken links, wrong category, documentation problems), open an issue in this repository.
